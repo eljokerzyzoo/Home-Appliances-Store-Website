@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Home Store
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="هل تبحث عن منتج معين؟">
+        </div>
+
+        <div class="nav-links">
+
+            <a href="#">الرئيسية</a>
+
+            <a href="kitchen.html">
+                أدوات المطبخ
+            </a>
+
+            <a href="clean.html">
+                أدوات التنظيف
+            </a>
+
+            <a href="storage.html">
+                أدوات التخزين
+            </a>
+
+            <a href="#offers">
+                العروض
+            </a>
+
+        </div>
+
+        <div class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </div>
+
+    </nav>
+
+    <!-- SIDE MENU -->
+
+    <div class="side-menu" id="sideMenu">
+
+        <a href="#">الرئيسية</a>
+
+        <a href="kitchen.html">
+            أدوات المطبخ
+        </a>
+
+        <a href="clean.html">
+            أدوات التنظيف
+        </a>
+
+        <a href="storage.html">
+            أدوات التخزين
+        </a>
+
+        <a href="#offers">
+            العروض
+        </a>
+
+    </div>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <video autoplay muted loop playsinline>
+
+            <source src="xxx.mp4" type="video/mp4">
+
+        </video>
+
+        <div class="hero-overlay">
+
+            <h1>
+                كل ما يحتاجه منزلك في مكان واحد
+            </h1>
+
+            <p>
+                اكتشف أفضل الأدوات المنزلية بأفضل الأسعار والجودة
+            </p>
+
+            <a href="#kitchen" class="hero-btn">
+                تصفح المنتجات
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about">
+
+        <h2>
+            وجهتك الأولى لكل احتياجات المنزل
+        </h2>
+
+        <p>
+            نقدم مجموعة واسعة من الأدوات المنزلية المختارة بعناية لتجمع بين الجودة والعملية والسعر المناسب،
+            لتجعل حياتك اليومية أسهل وأكثر راحة.
+        </p>
+
+    </section>
+    
+    <!-- KITCHEN SECTION -->
+
+    <section class="products-section" id="kitchen">
+
+        <div class="section-header">
+
+            <h2>🍳 أدوات المطبخ</h2>
+
+            <a href="kitchen.html" class="view-all">
+                عرض الكل
+            </a>
+
+        </div>
+
+        <div class="products-container">
+
+            <div class="product-card">
+
+                <img src="z11.jpg" alt="Blender">
+
+                <h3>Electric Kettle</h3>
+
+                <p>450 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="x11.jpg" alt="Air Fryer">
+
+                <h3>Electric Hand Mixer</h3>
+
+                <p>2200 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="c11.jpg" alt="Coffee Maker">
+
+                <h3>Microwave</h3>
+
+                <p>1400 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="v11.jpg" alt="Kettle">
+
+                <h3>Air Fryer</h3>
+
+                <p>550 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CLEANING SECTION -->
+
+    <section class="products-section" id="cleaning">
+
+        <div class="section-header">
+
+            <h2>🧽 أدوات التنظيف</h2>
+
+            <a href="clean.html" class="view-all">
+                عرض الكل
+            </a>
+
+        </div>
+
+        <div class="products-container">
+
+            <div class="product-card">
+
+                <img src="ss.jpg" alt="Vacuum Cleaner">
+
+                <h3>Vacuum Cleaner</h3>
+
+                <p>200 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="ff.jpg" alt="Mop">
+
+                <h3>Mop Set</h3>
+
+                <p>350 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="kk.jpg" alt="Brush Set">
+
+                <h3>Brush Set</h3>
+
+                <p>180 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="jj.jpg" alt="Spray Bottle">
+
+                <h3>Spray Bottle</h3>
+
+                <p>90 جنيه</p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- STORAGE SECTION -->
+
+    <section class="products-section" id="storage">
+
+        <div class="section-header">
+
+            <h2>📦 أدوات التخزين</h2>
+
+            <a href="storage.html" class="view-all">
+                عرض الكل
+            </a>
+
+        </div>
+
+        <div class="products-container">
+
+            <div class="product-card">
+                <img src="zz.jpg" alt="Storage Box">
+                <h3>Storage Box</h3>
+                <p>250 جنيه</p>
+                <button>أضف للسلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="xx.jpg" alt="Shoe Rack">
+                <h3>Shoe Rack</h3>
+                <p>650 جنيه</p>
+                <button>أضف للسلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="cc.jpg" alt="Drawer Organizer">
+                <h3>Drawer Organizer</h3>
+                <p>180 جنيه</p>
+                <button>أضف للسلة</button>
+            </div>
+
+            <div class="product-card">
+                <img src="vv.jpg" alt="Kitchen Rack">
+                <h3>Kitchen Rack</h3>
+                <p>520 جنيه</p>
+                <button>أضف للسلة</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- OFFERS SECTION -->
+
+    <section class="products-section" id="offers">
+
+        <div class="section-header">
+
+            <h2>🔥 العروض والخصومات</h2>
+
+           
+
+        </div>
+
+        <div class="products-container">
+
+            <div class="product-card">
+
+                <img src="v11.jpg" alt="Offer">
+
+                <h3>Kitchen Bundle</h3>
+
+                <p>
+                    <del>2500</del>
+                    1999 جنيه
+                </p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="m11.jpg" alt="Offer">
+
+                <h3>Cleaning Bundle</h3>
+
+                <p>
+                    <del>1200</del>
+                    899 جنيه
+                </p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="n11.jpg" alt="Offer">
+
+                <h3>Storage Bundle</h3>
+
+                <p>
+                    <del>1500</del>
+                    999 جنيه
+                </p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="b11.jpg" alt="Offer">
+
+                <h3>Home Essentials</h3>
+
+                <p>
+                    <del>3200</del>
+                    2499 جنيه
+                </p>
+
+                <button>أضف للسلة</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h3>Home Store</h3>
+
+                <p>
+                    نوفر أفضل الأدوات المنزلية بأعلى جودة
+                    وأسعار تنافسية تناسب الجميع.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>الأقسام</h3>
+
+                <a href="kitchen.html">أدوات المطبخ</a>
+                <a href="clean.html">أدوات التنظيف</a>
+                <a href="storage.html">أدوات التخزين</a>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>تواصل معنا</h3>
+
+                <p>📞 01000000000</p>
+                <p>✉ info@homestore.com</p>
+                <p>📍 القاهرة - مصر</p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>تابعنا</h3>
+
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 Home Store - All Rights Reserved
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

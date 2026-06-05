@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أدوات المطبخ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+<div class="logo">Home Store 🏠</div>
+
+<div class="nav-links">
+<a href="index.html">الرئيسية</a>
+<a href="kitchen.html">المطبخ</a>
+<a href="clean.html">التنظيف</a>
+<a href="storage.html">التخزين</a>
+</div>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+</nav>
+
+<!-- SIDE MENU -->
+<div class="side-menu" id="sideMenu">
+
+<a href="index.html">الرئيسية</a>
+<a href="kitchen.html">المطبخ</a>
+<a href="clean.html">التنظيف</a>
+<a href="storage.html">التخزين</a>
+
+</div>
+
+<!-- HERO -->
+<section class="hero small">
+
+<img src="i77.jfif">
+
+<div class="hero-overlay">
+
+<h1>أدوات المطبخ</h1>
+
+<p>كل ما تحتاجه للطهي بسهولة واحترافية</p>
+
+</div>
+
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section">
+
+<div class="products-container">
+
+<div class="product-card">
+<img src="z11.jpg">
+<h3>Blender</h3>
+<p>450 جنيه</p>
+<button onclick="addToCart('Blender',450)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="x11.jpg">
+<h3>Air Fryer</h3>
+<p>2200 جنيه</p>
+<button onclick="addToCart('Air Fryer',2200)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="c11.jpg">
+<h3>Coffee Maker</h3>
+<p>1400 جنيه</p>
+<button onclick="addToCart('Coffee Maker',1400)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="v11.jpg">
+<h3>Kettle</h3>
+<p>500 جنيه</p>
+<button onclick="addToCart('Kettle',500)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="b11.jpg">
+<h3>Toaster</h3>
+<p>650 جنيه</p>
+<button onclick="addToCart('Toaster',650)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="n11.jpg">
+<h3>Mixer</h3>
+<p>900 جنيه</p>
+<button onclick="addToCart('Mixer',900)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="m11.jpg">
+<h3>Pan Set</h3>
+<p>1200 جنيه</p>
+<button onclick="addToCart('Pan Set',1200)">أضف للسلة</button>
+</div>
+
+<div class="product-card">
+<img src="a11.jpg">
+<h3>Knife Set</h3>
+<p>800 جنيه</p>
+<button onclick="addToCart('Knife Set',800)">أضف للسلة</button>
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
